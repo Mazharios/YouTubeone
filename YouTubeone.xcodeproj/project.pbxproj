@@ -13,6 +13,9 @@
 		5C329D7B265E89F200020CDA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C329D79265E89F200020CDA /* Main.storyboard */; };
 		5C329D7D265E89F700020CDA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C329D7C265E89F700020CDA /* Assets.xcassets */; };
 		5C329D80265E89F700020CDA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C329D7E265E89F700020CDA /* LaunchScreen.storyboard */; };
+		5C329D8A265E994F00020CDA /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C329D89265E994F00020CDA /* Constants.swift */; };
+		5C329D8C265E9CD600020CDA /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C329D8B265E9CD600020CDA /* Video.swift */; };
+		5C329D8E265E9D3B00020CDA /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C329D8D265E9D3B00020CDA /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		5C329D7C265E89F700020CDA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5C329D7F265E89F700020CDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5C329D81265E89F700020CDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C329D89265E994F00020CDA /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		5C329D8B265E9CD600020CDA /* Video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
+		5C329D8D265E9D3B00020CDA /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +66,9 @@
 				5C329D75265E89F200020CDA /* SceneDelegate.swift */,
 				5C329D77265E89F200020CDA /* ViewController.swift */,
 				5C329D79265E89F200020CDA /* Main.storyboard */,
+				5C329D89265E994F00020CDA /* Constants.swift */,
+				5C329D8B265E9CD600020CDA /* Video.swift */,
+				5C329D8D265E9D3B00020CDA /* Model.swift */,
 				5C329D7C265E89F700020CDA /* Assets.xcassets */,
 				5C329D7E265E89F700020CDA /* LaunchScreen.storyboard */,
 				5C329D81265E89F700020CDA /* Info.plist */,
@@ -140,6 +149,9 @@
 				5C329D78265E89F200020CDA /* ViewController.swift in Sources */,
 				5C329D74265E89F200020CDA /* AppDelegate.swift in Sources */,
 				5C329D76265E89F200020CDA /* SceneDelegate.swift in Sources */,
+				5C329D8E265E9D3B00020CDA /* Model.swift in Sources */,
+				5C329D8A265E994F00020CDA /* Constants.swift in Sources */,
+				5C329D8C265E9CD600020CDA /* Video.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
