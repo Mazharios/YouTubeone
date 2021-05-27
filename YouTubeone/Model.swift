@@ -21,11 +21,22 @@ class Model {
             
             // Check Error
             
-            if error != nil || data != nil{
+            if error != nil || data == nil{
                 return
             }
             //Parsing the data into video objects
-        }
+            do{
+            let decoder  = JSONDecoder()
+            decoder.dateDecodingStrategy = .iso8601
+            
+            let response = try decoder.decode(Response.self, from: data!)
+                
+                dump(response)
+            }catch{
+                print(error)
+            }
+            
+    }
         dataTask.resume()
     }
 }
